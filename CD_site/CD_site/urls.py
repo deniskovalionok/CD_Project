@@ -20,5 +20,5 @@ from coder_decore.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('coder_decore/', include('coder_decore.urls'))
+    path('', include('coder_decore.urls'))
 ]
